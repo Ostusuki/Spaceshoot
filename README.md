@@ -33,6 +33,9 @@
 * Đọc, ghi file
 * Sử dụng thư viện đồ họa SFML
 # Kết Luận, hướng phát triển và các điều tâm đắc rút ra được sau khi hoàn thiện chương trình
-* Game trên là game em lấy ý tưởng từ game Space shooter em rất thích chơi trên điện thoại nhưng nó đã điều chỉnh game play để phù hợp chơi trên máy tính, code do em tự viết.
-* Tuy nhiên do thời gian có hạn nên game em chưa thực sự hoàn thiện, trong tương lại cải tiến hơn về mặt đồ họa, có nhiều hiệu ứng về âm thanh, hình ảnh bắt mắt hơn, thêm được các cơ chế mua vật phẩm và viết lại code một cách khoa học, dễ quản lí hơn.
-* Qua dự án lần này, em cũng rút ra được kinh nghiệm quản lí nhiều file trong 1 chương trình, tầm quan trọng của việc lên kế hoạch, quản lí sắp xếp các lớp, cấu trúc trong chương trình phù hợp với logic, chia nhỏ chương trình để dễ quản lí hơn.
+* Kết luận
+ * Game trên là game em lấy ý tưởng từ game Space shooter em rất thích chơi trên điện thoại nhưng nó đã điều chỉnh game play để phù hợp chơi trên máy tính, code do em tự viết.
+* Hướng phát triển
+ * Tuy nhiên do thời gian có hạn nên game em chưa thực sự hoàn thiện, trong tương lại cải tiến hơn về mặt đồ họa, có nhiều hiệu ứng về âm thanh, hình ảnh bắt mắt hơn, thêm được các cơ chế mua vật phẩm và viết lại code một cách khoa học, dễ quản lí hơn.
+* Điều tâm đắc rút ra được sau khi hoàn thiện chương trình
+ * Qua dự án lần này, em cũng rút ra được kinh nghiệm quản lí nhiều file trong 1 chương trình, tầm quan trọng của việc lên kế hoạch, quản lí sắp xếp các lớp, cấu trúc trong chương trình phù hợp với logic, chia nhỏ chương trình để dễ quản lí hơn.
