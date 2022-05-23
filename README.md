@@ -24,6 +24,7 @@
 * Bảng điểm cao nhất: hiển thị 5 điểm số cao nhất của game.
 * Có thể chơi lại nhiều lần.
 
+Video minh họa https://www.youtube.com/watch?v=PhDFqN8h2XU
 # Các kĩ thuật lập trình được sử dụng trong chương trình
 * Class
 * Mảng tĩnh 
@@ -32,10 +33,15 @@
 * Liên kết nhiều file
 * Đọc, ghi file
 * Sử dụng thư viện đồ họa SFML
+
 # Kết Luận, hướng phát triển và các điều tâm đắc rút ra được sau khi hoàn thiện chương trình
 * Kết luận
- * Game trên là game em lấy ý tưởng từ game Space shooter em rất thích chơi trên điện thoại nhưng nó đã điều chỉnh game play để phù hợp chơi trên máy tính, code do em tự viết.
+  * Game trên là game em lấy ý tưởng từ game Space shooter em rất thích chơi trên điện thoại nhưng nó đã điều chỉnh game play để phù hợp chơi trên máy tính, code do em tự viết có tham khảo.
 * Hướng phát triển
- * Tuy nhiên do thời gian có hạn nên game em chưa thực sự hoàn thiện, trong tương lại cải tiến hơn về mặt đồ họa, có nhiều hiệu ứng về âm thanh, hình ảnh bắt mắt hơn, thêm được các cơ chế mua vật phẩm và viết lại code một cách khoa học, dễ quản lí hơn.
+  * Tuy nhiên do thời gian có hạn nên game em chưa thực sự hoàn thiện, trong tương lại cải tiến hơn về mặt đồ họa, có nhiều hiệu ứng về âm thanh, hình ảnh bắt mắt hơn, thêm được các cơ chế mua vật phẩm và viết lại code một cách khoa học, dễ quản lí hơn.
 * Điều tâm đắc rút ra được sau khi hoàn thiện chương trình
- * Qua dự án lần này, em cũng rút ra được kinh nghiệm quản lí nhiều file trong 1 chương trình, tầm quan trọng của việc lên kế hoạch, quản lí sắp xếp các lớp, cấu trúc trong chương trình phù hợp với logic, chia nhỏ chương trình để dễ quản lí hơn.
+  * Qua dự án lần này, em cũng rút ra được kinh nghiệm quản lí nhiều file trong 1 chương trình, tầm quan trọng của việc lên kế hoạch, quản lí sắp xếp các lớp, cấu trúc trong chương trình phù hợp với logic, chia nhỏ chương trình để dễ quản lí hơn.
+# Nguồn tham khảo 
+* Em học SFML trên [link]https://www.sfml-dev.org/tutorials/2.5/
+* Hình ảnh âm thanh em lấy nguồn từ trên mạng và tự thiết kế.
+* Sử lí vụ nổ, va chạm tham khảo tại [link]https://www.youtube.com/watch?v=rWaSo2usU4A
