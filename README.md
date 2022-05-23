@@ -43,5 +43,5 @@ Video minh họa https://www.youtube.com/watch?v=PhDFqN8h2XU
   * Qua dự án lần này, em cũng rút ra được kinh nghiệm quản lí nhiều file trong 1 chương trình, tầm quan trọng của việc lên kế hoạch, quản lí sắp xếp các lớp, cấu trúc trong chương trình phù hợp với logic, chia nhỏ chương trình để dễ quản lí hơn.
 # Nguồn tham khảo 
 * Em học SFML trên [link]https://www.sfml-dev.org/tutorials/2.5/
-* Hình ảnh âm thanh em lấy nguồn từ trên mạng và tự thiết kế.
 * Sử lí vụ nổ, va chạm tham khảo tại [link]https://www.youtube.com/watch?v=rWaSo2usU4A
+* Hình ảnh âm thanh em lấy nguồn từ trên mạng và tự thiết kế.
