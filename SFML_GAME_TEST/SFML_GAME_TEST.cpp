@@ -93,7 +93,6 @@ int main()
 	Animation sPlayer(t1, 40, 40, 40, 45, 1, 0);
 	Animation sPlayer_down(t1, 80, 40, 40, 45, 1, 0);
 	Animation sPlayer_up(t1, 0, 40, 40, 45, 1, 0);
-	/*Animation sPlayer_go(t1, 40, 40, 40, 40, 1, 0);*/
 	Animation sExplosion_ship(t7, 0, 0, 192, 192, 64, 0.5);
 
 
@@ -102,7 +101,7 @@ int main()
 
 	//File high score
 	std::ifstream tep("highscore.txt");
-	for (int i = 1; i <= 5; i++) {
+	for (int i = 1; i <= 10; i++) {
 		tep >> scorerank[i];
 	}
 	score = 0;
@@ -224,7 +223,6 @@ int main()
 					}
 				}
 			}
-			//sf::Keyboard::isKeyPressed(sf::Keyboard::Right)
 
 			//draw
 			app.draw(menu_high_score);
@@ -346,20 +344,15 @@ int main()
 		}
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
 			p->x += 5;
-			/*p->thrust = true;*/
 		}
 		else p->thrust = false;
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) {
 			p->y -= 5;
-			/*p->anim = sPlayer_up;*/
 		}
-		/*else p->anim = sPlayer;*/
 
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
 			p->y += 5;
-			/*p->anim = sPlayer_down;*/
 		}
-		/*else p->anim = sPlayer;*/
 
 
 		///Explosion///
@@ -379,7 +372,7 @@ int main()
 						entities.push_back(e);
 
 
-						for (int i = 0; i < 5; i++)
+						for (int i = 0; i < 3; i++)
 						{
 							if (a->R == 15) continue;
 							Entity* e = new asteroid();
@@ -405,10 +398,7 @@ int main()
 						life--;
 					}
 			}
-		/*
-		if (p->thrust)  p->anim = sPlayer_go;
-		else   p->anim = sPlayer;
-		*/
+		
 		for (auto e : entities)
 			if (e->name == "explosion")
 				if (e->anim.isEnd()) e->life = 0;
@@ -455,7 +445,7 @@ int main()
 		mytext.setFillColor(sf::Color::White);
 		mytext.setStyle(sf::Text::Bold);
 		mytext.setPosition(820, 2);
-		std::stringstream ss;     /*#include <sstream>*/
+		std::stringstream ss;    
 		ss << score;
 		mytext.setString(ss.str().c_str());
 
@@ -486,7 +476,7 @@ int main()
 				file_score << scorerank[i] << std::endl;
 			}
 			menu_score_on = true;
-			//sleep(score_delaytime);
+
 		}
 		if (life == 1)  t10.loadFromFile("images/Menu_scores(fix_1_1).png");
 		if (life == 2)  t10.loadFromFile("images/Menu_scores(fix_1_3).png");
