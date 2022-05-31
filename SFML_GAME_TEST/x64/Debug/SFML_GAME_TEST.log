@@ -1,0 +1,23 @@
+﻿  SFML_GAME_TEST.cpp
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\player.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\Variable.h(10,42): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\Variable.h(11,48): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\Variable.h(12,44): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\Variable.h(96,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\Variable.h(96,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\Variable.h(105,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\Variable.h(105,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\Variable.h(105,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\Variable.h(118,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\Variable.h(118,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\Variable.h(137,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\SFML_GAME_TEST.cpp(24,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\SFML_GAME_TEST.cpp(76,30): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\SFML_GAME_TEST.cpp(78,35): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\SFML_GAME_TEST.cpp(96,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\SFML_GAME_TEST.cpp(124,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\SFML_GAME_TEST.cpp(124,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\SFML_GAME_TEST.cpp(187,27): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\SFML_GAME_TEST.cpp(196,25): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data
+D:\Code Virual\SFML_GAME_TEST\SFML_GAME_TEST\SFML_GAME_TEST.cpp(368,26): warning C4305: 'argument': truncation from 'double' to 'float'
+  SFML_GAME_TEST.vcxproj -> D:\Code Virual\SFML_GAME_TEST\x64\Debug\SFML_GAME_TEST.exe
